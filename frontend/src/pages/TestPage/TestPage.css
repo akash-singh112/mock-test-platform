@@ -1,0 +1,187 @@
+.test-top {
+    height: 8vh;
+    width: 100vw;
+}
+
+.test-bottom {
+    height: 90vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-bottom-left {
+    height: 90vh;
+    width: 70vw;
+    /* background-color: tomato; */
+}
+
+.test-bottom-left-top {
+    height: 70vh;
+    width: 70vw;
+    /* background-color: aquamarine; */
+    overflow-y: scroll;
+}
+
+/* .test-bottom-left-bottom {} */
+
+.test-bottom-left-bottom-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    flex-wrap: wrap;
+}
+
+.save-button {
+    background-color: rgb(12, 177, 3);
+    color: white;
+    padding: 5px;
+    border-color: black;
+    border-width: 1px;
+}
+
+.save-button:active {
+    border-width: 2px;
+    padding: 4px;
+    transform: translateY(2px);
+}
+
+.clear-button {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-color: black;
+    border-width: 1px;
+}
+
+.clear-button:active {
+    border-width: 2px;
+    padding: 4px;
+    transform: translateY(2px);
+}
+
+.save-mark-button {
+    background-color: rgb(202, 168, 0);
+    color: white;
+    padding: 5px;
+    border-color: black;
+    border-width: 1px;
+}
+
+.save-mark-button:active {
+    border-width: 2px;
+    padding: 4px;
+    transform: translateY(2px);
+}
+
+.mark-button {
+    background-color: rgb(38, 1, 159);
+    color: white;
+    padding: 5px;
+    border-color: black;
+    border-width: 1px;
+}
+
+.mark-button:active {
+    border-width: 2px;
+    padding: 4px;
+    transform: translateY(2px);
+}
+
+.test-bottom-left-bottom-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    flex-wrap: wrap;
+}
+
+.back-button {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-color: black;
+    border-width: 1px;
+}
+
+.back-button:active {
+    border-width: 2px;
+    padding: 4px;
+    transform: translateY(2px);
+}
+
+.next-button {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-color: black;
+    border-width: 1px;
+}
+
+.next-button:active {
+    border-width: 2px;
+    padding: 4px;
+    transform: translateY(2px);
+}
+
+.submit-button {
+    background-color: rgb(12, 177, 3);
+    color: white;
+    padding: 5px;
+    border-color: black;
+    border-width: 1px;
+}
+
+.submit-button:active {
+    border-width: 2px;
+    padding: 4px;
+    transform: translateY(2px);
+}
+
+.test-bottom-right {
+    height: 90vh;
+    width: 30vw;
+    /* background-color: steelblue; */
+}
+
+.test-bottom-right-top {
+    height: 30vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.test-bottom-right-bottom {
+    height: 60vh;
+    width: 30vw;
+    /* background-color: violet; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+
+.not-selected-option {
+    --tw-bg-opacity: 1;
+    background-color: rgb(30 64 175 / var(--tw-bg-opacity, 1))
+        /* #1e40af */
+    ;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    color: white;
+}
+
+.selected-option {
+    --tw-bg-opacity: 1;
+    background-color: rgb(22 163 74 / var(--tw-bg-opacity, 1))
+        /* #16a34a */
+    ;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    color: white;
+}

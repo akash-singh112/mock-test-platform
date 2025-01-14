@@ -1,0 +1,10 @@
+.not-answered-box {
+    height: 30px;
+    width: 30px;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 75%, 100% 25%);
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

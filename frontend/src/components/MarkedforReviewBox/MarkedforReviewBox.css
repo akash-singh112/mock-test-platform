@@ -1,0 +1,10 @@
+.marked-for-review-box {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
