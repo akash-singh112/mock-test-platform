@@ -14,18 +14,22 @@
 
 .test-bottom-left {
     height: 90vh;
-    width: 70vw;
+    width: 60vw;
     /* background-color: tomato; */
 }
 
 .test-bottom-left-top {
     height: 70vh;
-    width: 70vw;
+    width: 60vw;
     /* background-color: aquamarine; */
+    overflow-x: auto;
     overflow-y: scroll;
 }
 
-/* .test-bottom-left-bottom {} */
+.test-bottom-left-bottom {
+    height: 20vh;
+    width: 60vw;
+}
 
 .test-bottom-left-bottom-top {
     display: flex;
@@ -143,13 +147,13 @@
 
 .test-bottom-right {
     height: 90vh;
-    width: 30vw;
+    width: 40vw;
     /* background-color: steelblue; */
 }
 
 .test-bottom-right-top {
     height: 30vh;
-    width: 30vw;
+    width: 40vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -157,7 +161,7 @@
 
 .test-bottom-right-bottom {
     height: 60vh;
-    width: 30vw;
+    width: 40vw;
     /* background-color: violet; */
     display: flex;
     flex-direction: column;

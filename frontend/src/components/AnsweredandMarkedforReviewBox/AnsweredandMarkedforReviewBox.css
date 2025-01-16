@@ -1,6 +1,6 @@
 .outside-box-for-answered-and-marked-for-review {
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
     position: relative;
     border-radius: 100%;
     background-color: blueviolet;
@@ -11,8 +11,8 @@
 }
 
 .inside-box-for-answered-and-marked-for-review {
-    height: 10px;
-    width: 10px;
+    height: 13px;
+    width: 13px;
     position: absolute;
     bottom: 0px;
     right: 0px;

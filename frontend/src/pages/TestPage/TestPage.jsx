@@ -9,9 +9,9 @@ import AnsweredandMarkedforReviewBox from '../../components/AnsweredandMarkedfor
 
 // Need this array from the backend
 const quesArray = {
-    Physics: Array(125).fill("https://picsum.photos/id/1/120/120"),
-    Chemistry: Array(125).fill("https://picsum.photos/id/210/1200/1200"),
-    Maths: Array(125).fill("https://picsum.photos/id/200/1200/1200")
+    Physics: Array(25).fill("https://picsum.photos/id/1/3000/3000"),
+    Chemistry: Array(25).fill("https://picsum.photos/id/210/1200/1200"),
+    Maths: Array(25).fill("https://picsum.photos/id/200/1200/1200")
 }
 
 function TestPage() {
@@ -203,6 +203,7 @@ function TestPage() {
         <>
             <div className='test-top'>
                 <div className='font-mono'>Exam Name: </div>
+                <hr></hr>
                 <div className='font-mono'>Remaining Time: </div>
             </div>
             <hr></hr>
@@ -274,7 +275,7 @@ function TestPage() {
                             <button className='p-1 text-lg font-extrabold font-sans' onClick={() => { fromToFunc("Chemistry", 0) }}>CHEMISTRY</button>
                             <button className='p-1 text-lg font-extrabold font-sans' onClick={() => { fromToFunc("Maths", 0) }}>MATHS</button>
                         </div>
-                        <div className='flex flex-wrap m-2 gap-1 overflow-y-auto'>
+                        <div className='flex flex-wrap justify-center m-2 gap-3 overflow-y-auto'>
                             {quesStateArray[currSub].map((value, index) => (
                                 <div className="cursor-pointer" key={index} onClick={() => { fromToFunc(currSub, index) }}>
                                     {renderComponent(value, index)}

@@ -1,6 +1,6 @@
 .not-answered-box {
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
     clip-path: polygon(0% 0%, 0% 100%, 100% 75%, 100% 25%);
     background-color: red;
     color: white;

@@ -1,6 +1,6 @@
 .answered-box {
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
     clip-path: polygon(0% 0%, 0% 100%, 100% 75%, 100% 25%);
     background-color: rgb(1, 215, 1);
     color: white;
